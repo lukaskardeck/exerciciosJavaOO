@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import entidades.Triangulo;
 
-public class Main {
+public class Main_triangulo {
 
 	public static void main(String[] args) {
 		
