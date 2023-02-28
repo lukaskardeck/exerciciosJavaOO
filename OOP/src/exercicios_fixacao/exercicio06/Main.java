@@ -36,7 +36,7 @@ public class Main {
 			System.out.print("Quarto: ");
 			int q = sc.nextInt();
 			
-			while (q < 1 && q > 10) {
+			while (q < 1 || q > 10) {
 				System.out.print("Insira um valor de 1 à 10: ");
 				q = sc.nextInt();
 			}
