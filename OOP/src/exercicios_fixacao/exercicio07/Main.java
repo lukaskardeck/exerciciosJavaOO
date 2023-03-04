@@ -52,18 +52,7 @@ public class Main {
 			f.aumentoSalario(sc.nextDouble());
 		} else {
 			System.out.println("Esse funcionario nao existe!");
-		}
-		
-		/*boolean existe = false;
-		for(Funcionario f : funcionarios) {
-			if(f.getId() == id) {
-				existe = true;
-				System.out.print("Insira a porcentagem: ");
-				f.aumentoSalario(sc.nextDouble());
-			}
-		}
-		if(existe == false) System.out.println("Esse funcionario nao existe!");*/
-		
+		}		
 		
 		System.out.println();
 		System.out.println("Lista de funcionarios:");
